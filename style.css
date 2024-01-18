@@ -50,6 +50,12 @@ header *{
     margin-left:5px;
 }
 
+.ignore{
+    float:right;
+    display:flex;
+    height:auto;
+}
+
 nav{
     display:flex;
     justify-content: center;
