@@ -29,10 +29,31 @@
             justify-content: center;
         }
         
-        .home{
-            background-image:url(images/carousel_templestreet.jpeg);
+        .home_title{
+            text-align:center;
         }
-        
+
+        .home_suggestion{
+            text-align:left;
+        }
+
+        .home_gallery{
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap:5px;
+        }
+
+        .home_gallery_section{
+            justify-items: center;
+            text-align:center;
+            font-size:1.3rem;
+        }
+
+        .home_gallery_section img{
+            width:100%;
+            height:100%;
+            object-fit: cover;
+        }
     </style>
     
 
@@ -64,11 +85,38 @@
 
     <!--Carousel start-->
     <section id="home" class="home">
+        <div class="home_title">
+            <h1>Welcome</h1>
+            <p>In here, you can find places to travel to.</p>
+        </div>
 
+        <div class="home_suggestion">
+            <h3>Here are some suggestions:</h3>
+        </div>
+
+        <div class="home_gallery">
+            <div class="home_gallery_section">
+                <img src="images/carousel_maldives.avif">
+                <p class="home_gallery_section_text">Maldives</p>
+            </div>
+            <div class="home_gallery_section">
+                <img src="images/carousel_rome.jpeg">
+                <p class="home_gallery_section_text">Rome Colosseum</p>
+            </div>
+            <div class="home_gallery_section">
+                <img src="images/carousel_templestreet.jpeg">
+                <p class="home_gallery_section_text">Temple Street</p>
+            </div>
+            <div class="home_gallery_section">
+                <img src="images/carousel_eiffeltower.jpeg">
+                <p class="home_gallery_section_text">Eiffel Tower</p>
+            </div>
+        </div>
     </section>
     <!--Carousel end-->
 
     <!--footer start-->
+    <!--
     <footer>
         <div class="footer_section">
             <div class="footer_instagram_icon">
@@ -93,7 +141,7 @@
             </div>
             
         </div>
-    </footer>
+    </footer>-->
     <!--footer end-->
 
 </body>
