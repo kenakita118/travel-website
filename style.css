@@ -53,7 +53,7 @@ header *{
 nav{
     display:flex;
     justify-content: center;
-    border-bottom: 1.5px solid black;
+    border-bottom: 1.5px solid var(--color-black);
 }
 
 .nav_links{
@@ -67,4 +67,16 @@ nav{
 .nav_links:hover{
     color: var(--color-blue);
     border-radius:1%;
+}
+
+footer{
+    margin-top:100px;
+    border-top: 1.5px solid var(--color-black);
+}
+
+.footer_content{
+    text-align:center;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin:auto;
 }
