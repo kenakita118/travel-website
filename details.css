@@ -1,0 +1,21 @@
+.details_content{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows:1fr;
+    gap:25px;
+}
+
+.details_content2{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:2fr;
+    gap:25px;
+}
+
+.details_text p{
+    text-indent: 20px;
+}
+
+.details_text h2{
+    font-size:1.2rem;
+}
