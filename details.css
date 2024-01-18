@@ -6,6 +6,7 @@
 }
 
 .details_content2{
+    margin-top:30px;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows:2fr;
@@ -19,3 +20,16 @@
 .details_text h2{
     font-size:1.2rem;
 }
+
+.details_content_map{
+    width:100%;
+}
+
+@media only screen and (max-width: 1300px) {
+    .details_content{
+        display:block;
+    }
+    .details_content2{
+        display:block;
+    }
+  }
