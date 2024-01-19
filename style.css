@@ -31,14 +31,16 @@ a{
     cursor:pointer;
 }
 
-header *{
+/*header*/
+
+header{
     display:flex;
-    justify-content:center;
-    align-items:center;
+    justify-content: space-between;
+    border-bottom: 1.5px solid var(--color-black);
 }
 
 .header_logo{
-    display:inline-block;
+    display:flex;
 }
 
 .header_logo_icon{
@@ -46,20 +48,16 @@ header *{
 }
 
 .header_logo_text{
-    display:inline-block;
+    display:flex;
     margin-left:5px;
 }
 
-.ignore{
-    float:right;
-    display:flex;
-    height:auto;
-}
-
+/* header navbar*/
 nav{
     display:flex;
     justify-content: center;
-    border-bottom: 1.5px solid var(--color-black);
+    text-align:center;
+    align-items:center;
 }
 
 .nav_links{
@@ -75,6 +73,8 @@ nav{
     border-radius:1%;
 }
 
+/*footer*/
+
 footer{
     margin-top:100px;
     border-top: 1.5px solid var(--color-black);
@@ -87,3 +87,4 @@ footer{
     gap:100px;
     margin:auto;
 }
+

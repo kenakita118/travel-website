@@ -41,7 +41,21 @@
         }
 
         .home2{
-            margin-top:55px;
+            margin-top:100px;
+            text-align:center;
+        }
+
+        .home2_ul{
+            display:inline-block;
+        }
+
+        @media only screen and (max-width: 1300px) {
+            .home_gallery{
+                display:block;
+            }
+            .home2 img{
+                display:block;
+            }
         }
     </style>
 </head>
@@ -60,14 +74,12 @@
             </div>
         </div>
 
-        <div class="ignore">
-            <h3>Today I ate 15 meatballs</h3>
-        </div>
+        
 
         <nav class="nav">
             <a href="#home" class="nav_links">Home</a>
             <a href="" class="nav_links">About</a>
-            <a href="" class="nav_links">Contact</a>
+            <a href="#footer" class="nav_links">Contact</a>
         </nav>
     </header>
     <!--Header end-->
@@ -81,6 +93,7 @@
 
         <div class="home_suggestion">
             <h3>Here are some suggestions:</h3>
+            <p>Click on the images see more!</p>
         </div>
 
         <div class="home_gallery">
@@ -114,18 +127,29 @@
 
     <!--Body Content 2-->
     <section class="home2">
-        <div class="home2_title">
-            <h3>Why you should trust this website:</h3>
+        <div class="home2_text">
+            <div class="home2_title">
+                <h3>Things you can find here?</h3>
+            </div>
+            <div class="home2_ul">
+                <ul>
+                    <li class="">Travel Suggestions</li>
+                    <li class="">Safety Tips</li>
+                    <li class="">My Contact Info</li>
+                </ul>
+            </div>
         </div>
+        
     </section>
 
     <!--footer start-->
     
-    <footer>
+    <footer id="footer">
         <div class="footer_content">
             <div class="footer_content_row1">
                 <h2>Contact</h2>
-                <p>Telephone: 2456 7111</p>
+                <p>Telephone: +852 2456 7111</p>
+                <p>Phone Number: +852 2180 0000</p>
             </div>
             <div class="footer_content_row2">
                 <h2>Address</h2>
